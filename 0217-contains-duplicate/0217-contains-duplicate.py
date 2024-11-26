@@ -30,4 +30,23 @@ class Solution:
             else:
                 hashset.add(num)
         return False
-        
+
+### Time and Space Complexity
+
+#### HashMap Approach:
+- **Time Complexity**: `O(n)`  
+  - `O(n)` to build the hashmap + `O(k)` to iterate over values (`k <= n`).
+- **Space Complexity**: `O(n)`  
+  - Stores counts for up to `n` unique elements.
+
+#### HashSet Approach:
+- **Time Complexity**: `O(n)`  
+  - `O(n)` for checking membership and adding elements.
+- **Space Complexity**: `O(n)`  
+  - Stores up to `n` unique elements.
+
+---
+
+### Summary
+- Both approaches have **O(n)** time and space complexity.  
+- **HashSet** is simpler and avoids an extra loop, making it slightly faster in practice.
