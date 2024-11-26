@@ -1,12 +1,21 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        res=[]
+        # Edge case 1: Empty list
+        if not intervals:
+            return []
 
+        # Edge Case 2: Single interval
+        if len(intervals)==1:
+            return intervals
+        
+        
+        res=[] 
+
+        
+        """
         #Sorting based on 1st elementt of every sub array
         #for interval in sorted(intervals, key=lambda x:x[0]):
-
-
-        """
+        --------------------------------------------------------
         why the above for loop for sorting is necessary
         Example: Consider intervals like [[5, 6], [1, 3], [2, 4]]. If we process  these in the original order:
         --When examining [5, 6], there's no overlap with [1, 3], so we add it to res.
