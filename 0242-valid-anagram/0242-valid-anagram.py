@@ -16,7 +16,7 @@ class Solution:
             else:
                 return False
         
-        for val in hashmap.values():
-            if val!=0:
+        for char in hashmap:
+            if hashmap[char]!=0:
                 return False
         return True
