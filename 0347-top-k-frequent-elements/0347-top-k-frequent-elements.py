@@ -56,6 +56,19 @@ class Solution:
             
     4) Total Time Complexity:
             O(n log k)
+
+
+    Space Complexity:
+    1) Frequency map:
+    
+        Uses O(m) space, where m is the number of unique elements in the input list.
+        
+    2) Heap:
+    
+        Stores at most k elements at a time.
+        Space Complexity: O(k)
+        
+    3) Total Space Complexity: O(m + k) (where m is the number of unique elements).
         """
 
         import heapq
