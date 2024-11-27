@@ -29,3 +29,18 @@ class Solution:
 
         # If all counts are zero, return True (strings are anagrams)
         return True
+
+
+### Complexity:
+
+**Time Complexity:**
+1. **First Loop:** O(n), traverses string `s` to populate the hashmap.
+2. **Second Loop:** O(n), traverses string `t` to decrement counts.
+3. **Final Check:** O(k), where `k` is the number of unique characters (in the worst case, `k = n`).
+4. **Overall:** O(n).
+
+**Space Complexity:**
+- O(k), where `k` is the number of unique characters. For a fixed alphabet (e.g., lowercase English letters), `k = O(1)`.
+
+
+
