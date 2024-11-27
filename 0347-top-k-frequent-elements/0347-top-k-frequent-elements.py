@@ -2,7 +2,7 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
         """
-        Using Bucket fill logic
+        Using Bucket fill logic (optiaml)-->without soring
         ----------------------
         Short Summary
         Time Complexity: O(n)
@@ -52,7 +52,7 @@ class Solution:
 
 
         """
-        Using hashing and sorting
+        Using hashing and sorting (not optimal)->invoves sorting
         ------------------------
         Time Complexity:
 
