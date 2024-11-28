@@ -21,6 +21,8 @@ class Solution:
                 curstr+=char
         return curstr
 
-![Step-by-Step Execution](https://i.imgur.com/kg07U4I.png)
+        # Input: s = "3[a]2[bc]"
+        # https://imgur.com/kg07U4I
 
-
+        # Input: s = "3[a2[c]]"
+        # https://imgur.com/a/3o489xG
