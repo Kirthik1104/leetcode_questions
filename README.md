@@ -72,4 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Kirthik1104/leetcode_questions/tree/master/0128-longest-consecutive-sequence) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/Kirthik1104/leetcode_questions/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
