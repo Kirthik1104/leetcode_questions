@@ -21,5 +21,5 @@ class Solution:
                 curstr+=char
         return curstr
 
-![Step-by-Step Execution]https://imgur.com/a/3o489xG.png)
+![Step-by-Step Execution]https://imgur.com/a/3o489xG)
 
