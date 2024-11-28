@@ -20,3 +20,5 @@ class Solution:
             else:
                 curstr+=char
         return curstr
+
+![Step-by-Step Execution](https://imgur.com/a/3o489xG)
