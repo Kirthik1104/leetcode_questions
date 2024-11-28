@@ -25,22 +25,22 @@ class Solution:
         """
         Avoiding Space complexity by changiing the main string. So Only Tc O(n)
         """
-        # l=0
-        # r=len(s)-1
+        l=0
+        r=len(s)-1
 
-        # while l<r:
-        #     # Check if l<r and if not a-z, A-Z, 0-9, thats means its a special character, so we move ahead/skip the index 
-        #     while l<r and not (('a'<=s<='z') or ('A'<=s<='Z') or ('0'<=s<='9')):
-        #         l+=1
+        while l<r:
+            # Check if l<r and if not a-z, A-Z, 0-9, thats means its a special character, so we move ahead/skip the index 
+            while l<r and not (('a'<=s<='z') or ('A'<=s<='Z') or ('0'<=s<='9')):
+                l+=1
 
-        #     # Check if l<r and if not a-z, A-Z, 0-9, thats means its a special character, so we move back/skip the index 
-        #     while l<r and not (('a'<=s<='z') or ('A'<=s<='Z') or ('0'<=s<='9')):
-        #         r-=1
+            # Check if l<r and if not a-z, A-Z, 0-9, thats means its a special character, so we move back/skip the index 
+            while l<r and not (('a'<=s<='z') or ('A'<=s<='Z') or ('0'<=s<='9')):
+                r-=1
             
-        #     if s[l].lower()!=s[r].lower(): #if char is not equal, return False
-        #         return False
-        #     l+=1
-        #     r-=1
-        # return True #if the while loop has traversed fully then it means everything is correct, return true
+            if s[l].lower()!=s[r].lower(): #if char is not equal, return False
+                return False
+            l+=1
+            r-=1
+        return True #if the while loop has traversed fully then it means everything is correct, return true
 
         
