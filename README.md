@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Kirthik1104/leetcode_questions/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/Kirthik1104/leetcode_questions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
@@ -61,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0394-decode-string) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Kirthik1104/leetcode_questions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
