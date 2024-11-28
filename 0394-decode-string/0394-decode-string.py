@@ -21,5 +21,5 @@ class Solution:
                 curstr+=char
         return curstr
 
-![Step-by-Step Execution](https://i.imgur.com/abcd1234.png)
+![Step-by-Step Execution]https://imgur.com/a/3o489xG.png)
 
