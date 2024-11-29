@@ -5,25 +5,25 @@ class Solution:
         nums.sort()
         hashset=set()
         n=len(nums)
-        for i in range(len(nums)):
-            if i>0 and nums[i]==nums[i-1]:
+        for i in range(len(nums)):# if the element at i and i-1 is same then go ti next i
                 continue
             
-            left=i+1
-            right=n-1
+            left=i+1  #start left from i+1
+            right=n-1 #start right from end
+        
             while left<right:
-                current_sum=nums[i]+nums[left]+nums[right]
-                if current_sum==0:
+                current_sum=nums[i]+nums[left]+nums[right]  #calculate current_sum
+                if current_sum==0:                          #check if current sum is 0 then add it to set in the form of tuple
                     hashset.add(tuple((nums[i], nums[left], nums[right])))
-                    left+=1
+                    left+=1                                #increment left amd drecement right, it will go to while's below
                     right-=1
 
-                    while left<right and nums[left]==nums[left-1]:
+                    while left<right and nums[left]==nums[left-1]:   # After increment left if the number at left is equal to number at current left increment the left by 1 to skip the duplicates
                         left+=1
                     
-                    while left<right and nums[right]==nums[right+1]:
+                    while left<right and nums[right]==nums[right+1]:  # After decrementing if the number at right is equal to number at current right decrement the right by 1 to skip the duplicates
                         right-=1
-                elif current_sum<0:
+                elif current_sum<0:  
                     left+=1
                 else:
                     right-=1
