@@ -25,4 +25,13 @@ class Solution:
         Tc: 0(n)
         Sc: 0(n)
 
+        how are we calculating result+=
+
+        - By running through the left and right array from left to right, we will get min height from both array,
+        why min height? Because at current index we will get min height (either from right or left) and subtract it from current height
+
+        - how result is 0 at index 3? at index 3 height is 2 and min height from left and right is also 2 so 2-2 =0
+        - How result is 1 at index ? at index 4 the max height from left arr is 2 and max height from right arr is 3, we will 
+        get min of 2 and 3, which is 2 and current height at index 4 is 1 so: 2-1:1
+        - So the result is 1 because 1 level of water will be getting stored
         """
