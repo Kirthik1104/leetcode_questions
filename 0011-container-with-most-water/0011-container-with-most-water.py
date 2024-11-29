@@ -43,47 +43,47 @@ min(height[left],height[right]):-area is determined by multiplying this width by
 
        """
 
-        # res=0
+        res=0
 
-        # for left in range(len(height)):               
-        #     for right in range(left+1, len(height)):
-        #         area=(right-left)*min(height[left],height[right])
-        #         res=max(res, area)
-        # return res
-
-
+        for left in range(len(height)):               
+            for right in range(left+1, len(height)):
+                area=(right-left)*min(height[left],height[right])
+                res=max(res, area)
+        return res
 
 
-#         """
 
-#          Two pointer:
 
-#          1) Compare position at leftt with right
-#          2 Calculate the area
-#          3) Check if height at left is smaller than right move left to right else move right to left
-#          4) Time complexxity o(n):-- only using 1 for loop
-#         """
+        """
 
-#         left=0
-#         right=len(height)-1
+         Two pointer:
 
-#         result=0
+         1) Compare position at leftt with right
+         2 Calculate the area
+         3) Check if height at left is smaller than right move left to right else move right to left
+         4) Time complexxity o(n):-- only using 1 for loop
+        """
+
+        left=0
+        right=len(height)-1
+
+        result=0
         
-#         while left<right:    # Pointer to keep traversing in x axis
+        while left<right:    # Pointer to keep traversing in x axis
 
 
-#             # area=(breadt* min (height at left, height at right))
-#             area=(right-left)* min(height[left], height[right])  
+            # area=(breadt* min (height at left, height at right))
+            area=(right-left)* min(height[left], height[right])  
 
-#             result=max(result, area)
+            result=max(result, area)
 
-#             if height[left]<height[right]:  # to check if height at left is smaller than right
-#                 left+=1       # if height is smaller inleft. Move left one position to right
-#             else:
-#                 right-=1  # Move right one position to left
+            if height[left]<height[right]:  # to check if height at left is smaller than right
+                left+=1       # if height is smaller inleft. Move left one position to right
+            else:
+                right-=1  # Move right one position to left
 
 
-#         return result  # return the result stored
+        return result  # return the result stored
 
 
 
