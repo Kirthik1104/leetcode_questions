@@ -1,5 +1,10 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
+
+        """ 
+        Tc: O(n)
+        """
+
         # s2 has premutations of s1 so if s1 lenght is greater than s2 lenght then no premutations can be found in s2. retturn false
         if len(s1)>len(s2):
             return False
