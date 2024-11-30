@@ -1,22 +1,23 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-
+        
+        # Tc: O(n)
         symbol={")":"(", "}":"{", "]":"["}
         stack=[]
 
         for char in s:
-            if char in symbol:
-                if stack and stack[-1]==symbol[char]:
-                    stack.pop()
+            if char in symbol: # Check if char is closing brackeet (present as keys in dict). If not closing add in stack
+                if stack and stack[-1]==symbol[char]: # if closing bracket. check its coorespong typr and match
+                    stack.pop() # if same type and correct fornat. Pop the stack for next type of bracket
                 else:
-                    return False
+                    return False # Return False immediately if bracket type does not match
             else:
                 stack.append(char)
 
-        if not stack:
+        if not stack:   # if after traversing  stack is empty that means all types of bracket are correct and same. return true
             return True
         else:
-            return False
+            return False # else false
 
 
 
