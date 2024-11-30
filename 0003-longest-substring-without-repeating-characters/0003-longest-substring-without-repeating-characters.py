@@ -1,12 +1,14 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         left=0
-        hashset=set()
-        res=0
-        for right in range(len(s)):
-            while s[right] in hashset:
-                hashset.remove(s[left])
-                left+=1
+        hashset=set()  # creating a hashset to store only unique values
+        res=0 # res is used to store the longest sequence
+
+        for right in range(len(s)): # start a loop from 0 to n
+        # if same values still exists after removing from left, while loop will continue to run unless and until the duplicates are removed.
+            while s[right] in hashset: # check if chars in s is already in hashset
+                hashset.remove(s[left]) # if values are same then shrink the window from left by increment the left
+                left+=1       
 
 
 
