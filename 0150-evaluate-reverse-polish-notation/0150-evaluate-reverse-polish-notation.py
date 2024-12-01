@@ -26,5 +26,5 @@ class Solution:
                 stack.append(res)
 
         # Final result will be the only item left on the stack
-        return(stack[-1])
+        return stack[-1]
                 
