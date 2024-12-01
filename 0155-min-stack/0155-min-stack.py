@@ -1,5 +1,7 @@
 class MinStack:
-
+    """
+    Ecery operation is O(1)
+    """
     def __init__(self):
         self.stack=[]
         self.minstack=[]  # Created a stack to keep track of minimum in the main stack (self.stack)
