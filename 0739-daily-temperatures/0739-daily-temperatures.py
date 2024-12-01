@@ -1,5 +1,7 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+
+        # Tc: O(n)
         n=len(temperatures)
         stack=[]
         result=[0]*n
