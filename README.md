@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
+| [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Kirthik1104/leetcode_questions/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0394-decode-string) |
 | [0739-daily-temperatures](https://github.com/Kirthik1104/leetcode_questions/tree/master/0739-daily-temperatures) |
+| [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 ## Recursion
 |  |
 | ------- |
