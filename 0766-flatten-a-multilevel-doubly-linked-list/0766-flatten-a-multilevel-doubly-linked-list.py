@@ -6,6 +6,12 @@ class Node:
         self.prev = prev
         self.next = next
         self.child = child
+
+        
+"""
+"""
+Overall Time Complexity:
+O(n), where n is the total number of nodes in the multilevel linked list. and Sc O(n)
 """
 
 class Solution:
@@ -43,6 +49,7 @@ class Solution:
             dummy   curr
             """
             # Dummy was always at 0, we need to detach it from 1, because 1's previous is pointing to 0. dummy.next is 1, its previous is set to None
+            # While dummy.next still points to the head of the flattened list. we ca return dummy.next or the head
         dummy.next.prev=None   
 
         return head
