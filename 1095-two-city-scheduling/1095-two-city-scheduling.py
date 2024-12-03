@@ -1,6 +1,8 @@
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:
         """
+        Tc: Nlognn for sorting
+
         1) Key Insight:
 
         The main goal is to minimize the total cost of sending \U0001d45b people to City A and \U0001d45b people to City B.
