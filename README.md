@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [0739-daily-temperatures](https://github.com/Kirthik1104/leetcode_questions/tree/master/0739-daily-temperatures) |
 | [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
+| [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
 ## Sorting
 |  |
 | ------- |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
+| [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
 ## String
 |  |
 | ------- |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Kirthik1104/leetcode_questions/tree/master/0155-min-stack) |
+| [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
 ## Linked List
 |  |
 | ------- |
@@ -152,4 +155,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
+## Data Stream
+|  |
+| ------- |
+| [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
 <!---LeetCode Topics End-->
