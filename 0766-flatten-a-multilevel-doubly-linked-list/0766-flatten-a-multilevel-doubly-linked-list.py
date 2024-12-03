@@ -10,7 +10,7 @@ class Node:
 
 class Solution:
     def flatten(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        if head is None:
+        if head is None: # for empty head
             return head
         dummy=Node(0)
         prev=dummy
@@ -45,7 +45,7 @@ class Solution:
             # Dummy was always at 0, we need to detach it from 1, because 1's previous is pointing to 0. dummy.next is 1, its previous is set to None
         dummy.next.prev=None   
 
-        return dummy.next
+        return head
 
 
 
