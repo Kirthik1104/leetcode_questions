@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Kirthik1104/leetcode_questions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [0739-daily-temperatures](https://github.com/Kirthik1104/leetcode_questions/tree/master/0739-daily-temperatures) |
+| [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 ## Sorting
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
+| [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 ## Hash Table
 |  |
 | ------- |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0011-container-with-most-water) |
+| [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 ## Dynamic Programming
 |  |
 | ------- |
