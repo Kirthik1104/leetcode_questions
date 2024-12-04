@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Doubly-Linked List
 |  |
@@ -171,4 +172,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
+## Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
