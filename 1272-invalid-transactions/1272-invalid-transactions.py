@@ -1,35 +1,26 @@
+from collections import defaultdict
+from typing import List
+
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
-        invalid=[]
-
-        for index1, trans1 in enumerate(transactions):
-            name1, time1, amount1, city1 = trans1.split(",")
-
-            if int(amount1)>1000:
-                invalid.append(trans1)
-                continue                        # if any transaction has amount > 1000 go to next transanctions
-
-            for index2, trans2 in enumerate(transactions):
-                if index1!=index2:
-
-                    name2, time2, amount2, city2 = trans2.split(",")
-
-                    if name1==name2 and city1!=city2 and abs(int(time1) - int(time2))<=60:
-                        invalid.append(trans1)
-                        break
-        return invalid
-
-
-        """
-        1. Reason for break:
-
-        Once trans1 is identified as invalid, we don’t need to compare it with other transactions because:It’s already marked as invalid.
-        Appending trans1 multiple times to the invalid list (or set) for different reasons is unnecessary.
-
-        2. Why Are We Appending trans1 Instead of trans2?
-        Context:
-
-        We’re iterating through transactions using the outer loop (trans1) and comparing it with other transactions (trans2).
-        The goal is to determine whether trans1 itself is invalid.
-
-        """
+        invalid = set()  # Use a set to avoid duplicate invalid transactions
+        parsed = []  # Store parsed transactions
+        
+        # Parse transactions into a list of tuples: (name, time, amount, city, index)
+        for i, transaction in enumerate(transactions):
+            name, strtime, amount, city = transaction.split(",")
+            parsed.append((name, int(strtime), int(amount), city, i))
+        
+        # Check each transaction against others
+        for i, (name1, time1, amount1, city1, idx1) in enumerate(parsed):
+            if amount1 > 1000:  # Rule 1: Amount exceeds $1000
+                invalid.add(idx1)
+            
+            for j, (name2, time2, amount2, city2, idx2) in enumerate(parsed):
+                # Rule 2: Check for same name, time within 60 minutes, and different cities
+                if i != j and name1 == name2 and abs(time1 - time2) <= 60 and city1 != city2:
+                    invalid.add(idx1)
+                    invalid.add(idx2)
+        
+        # Collect transactions marked as invalid
+        return [transactions[i] for i in invalid]
