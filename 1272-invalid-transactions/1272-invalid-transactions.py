@@ -7,7 +7,7 @@ class Solution:
 
             if int(amount1)>1000:
                 invalid.append(trans1)
-                continue
+                continue                        # if any transaction has amount > 1000 go to next transanctions
 
             for index2, trans2 in enumerate(transactions):
                 if index1!=index2:
@@ -18,3 +18,18 @@ class Solution:
                         invalid.append(trans1)
                         break
         return invalid
+
+
+        """
+        1. Reason for break:
+
+        Once trans1 is identified as invalid, we don’t need to compare it with other transactions because:It’s already marked as invalid.
+        Appending trans1 multiple times to the invalid list (or set) for different reasons is unnecessary.
+
+        2. Why Are We Appending trans1 Instead of trans2?
+        Context:
+
+        We’re iterating through transactions using the outer loop (trans1) and comparing it with other transactions (trans2).
+        The goal is to determine whether trans1 itself is invalid.
+
+        """
