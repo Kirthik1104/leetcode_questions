@@ -9,7 +9,9 @@ class Solution:
 
         """
     Overall Time Complexity: The overall time complexity of the isValidBST function is 
-    \U0001d442(\U0001d45b), where \U0001d45b is the number of nodes in the binary tree.
+    𝑂(𝑛), where 𝑛 is the number of nodes in the binary tree..
+
+    
     1) a node will be always greater than -ive infinity and less than +ve infinity +ve:--> -ve <node< +ve
 
     2) If we travsere node.left -ive(left) will remain same but positive +ve(right) will be replaced by current node.val
@@ -56,8 +58,8 @@ class Solution:
 
 
 
-        # psuedo Code
-        # ----------
+        # psuedo Code (previous attempt)
+        # ---------- 
         # left subtree of node cotains only node  with keys less than the nodes key
 
         # right subtree of node contains only node with keys than the nodes key
@@ -65,31 +67,31 @@ class Solution:
         # Same case for left and right subtree Must aslo be BST 
 
 
-        # Actual Code
-        # ---------
+        Actual Code
+        ---------
         
-        # def subtree(node, left, right):
-        #     if node is None:
-        #         return True
+        def subtree(node, left, right):
+            if node is None:
+                return True
             
-        #     #not (True) → False.
-        #     #not (False) → True.
-        #     if not (left < node.val < right):
-        #         return False # If not, return False as it's not a valid BST
+            #not (True) → False.
+            #not (False) → True.
+            if not (left < node.val < right):
+                return False # If not, return False as it's not a valid BST
             
-        #     left=subtree(node.left, left, node.val)    # calling the next value at left, L=-int, keep the current value as right bound
+            left=subtree(node.left, left, node.val)    # calling the next value at left, L=-int, keep the current value as right bound
 
-        #     if left== False:  # if any of the condition fails at left and returns false. Check left immediately and return false. No need to call the fucntion for right
-        #         return False
+            if left== False:  # if any of the condition fails at left and returns false. Check left immediately and return false. No need to call the fucntion for right
+                return False
 
-        #     right=subtree(node.right,node.val, right)  # calling the next value at right, r=+ int, keep the current value as left bound
+            right=subtree(node.right,node.val, right)  # calling the next value at right, r=+ int, keep the current value as left bound
 
-        #     return left and right
+            return left and right
 
-        # # Start the recursion with the root node and initial boundaries 
-        # return subtree(root, float("-inf"), float("inf"))
+        # Start the recursion with the root node and initial boundaries 
+        return subtree(root, float("-inf"), float("inf"))
 
-        # # root, -inf (to get as min value as possible), +inf (to get as max value as possible)
+        # root, -inf (to get as min value as possible), +inf (to get as max value as possible)
         
        
         """
