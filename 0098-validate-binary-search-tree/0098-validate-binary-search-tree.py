@@ -8,18 +8,21 @@ class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
 
         """
-        1) a node will be always greater than -ive infinity and less than +ve infinity +ve:--> -ve <node< +ve
+    Overall Time Complexity: The overall time complexity of the isValidBST function is 
+    \U0001d442(\U0001d45b), where \U0001d45b is the number of nodes in the binary tree.
+    1) a node will be always greater than -ive infinity and less than +ve infinity +ve:--> -ve <node< +ve
 
-        2) If we travsere node.left -ive(left) will remain same but positive +ve(right) will be replaced by current node.val 
+    2) If we travsere node.left -ive(left) will remain same but positive +ve(right) will be replaced by current node.val
 
-                2  (- < 2 < +)
--ve            / \                 +ve
-              1   3
-(-ve < 1 < 2)       (2 < 3 < +ve)
+                                    (- < 2 < +)
+                                        2  
+                        -ve            / \                 +ve
+                                      1   3
+                        (-ve < 1 < 2)       (2 < 3 < +ve)
 
-        3) If we travsere node.right -ive(left) will be replaced by current node.val and positive +ve(right) will remain same
+    3) If we travsere node.right -ive(left) will be replaced by current node.val and positive +ve(right) will remain same
 
-        4) since we need 3 values to work, we will create a helper fucntion and pass 3 val
+    4) since we need 3 values to work, we will create a helper fucntion and pass 3 val
         """
         def validate(node, left, right):
 
