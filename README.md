@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Kirthik1104/leetcode_questions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0739-daily-temperatures](https://github.com/Kirthik1104/leetcode_questions/tree/master/0739-daily-temperatures) |
 | [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
@@ -108,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/Kirthik1104/leetcode_questions/tree/master/0009-palindrome-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kirthik1104/leetcode_questions/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 ## Two Pointers
 |  |
 | ------- |
@@ -146,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/Kirthik1104/leetcode_questions/tree/master/0155-min-stack) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
 ## Linked List
 |  |
@@ -163,4 +167,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
