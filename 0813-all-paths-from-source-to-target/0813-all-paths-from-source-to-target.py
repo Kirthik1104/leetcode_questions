@@ -1,20 +1,32 @@
+from collections import defaultdict
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
-        def dfs(node, path):
-            # Add the current node to the path
-            path.append(node)
 
-            # If we reach the target node, add the current path to the result
-            if node == len(graph) - 1:
-                result.append(list(path))
+        hashmap=defaultdict(list)
+
+        for index in range(len(graph)):
+            if index not in hashmap:
+                hashmap[index]=graph[index]
             else:
-                # Recursively explore each neighbor
-                for neighbor in graph[node]:
-                    dfs(neighbor, path)
+                hashmap[index].append(graph[index])
+        
 
-            # Backtrack: Remove the current node from the path
-            path.pop()
+        def dfs(node, path):
+            if node==len(graph)-1:
+                result.append(list(path))
+             
 
-        result = []
-        dfs(0, [])  # Start DFS from node 0 with an empty path
+
+            for nei in hashmap[node]:
+                path.append(nei)
+                dfs(nei, path)
+                path.pop()
+
+            
+
+
+        result=[]
+        dfs(0, [0])
         return result
+        
+        
