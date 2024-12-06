@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Kirthik1104/leetcode_questions/tree/master/0056-merge-intervals) |
+| [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kirthik1104/leetcode_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Kirthik1104/leetcode_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kirthik1104/leetcode_questions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kirthik1104/leetcode_questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/Kirthik1104/leetcode_questions/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Kirthik1104/leetcode_questions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0394-decode-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0394-decode-string) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
 ## Breadth-First Search
 |  |
@@ -197,4 +200,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
