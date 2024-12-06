@@ -14,6 +14,11 @@ M,N: Grid dimensions.
         columns=len(board[0])
         visited=set()
 
+        #Edge case : 1 char
+
+        if rows == 1 and columns ==1:
+            return board[0][0]==word[:]
+
         def dfs(x, y, index):
             if index==len(word):
                 return True
