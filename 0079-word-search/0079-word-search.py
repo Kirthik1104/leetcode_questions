@@ -1,5 +1,14 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
+
+        """
+ime Complexity:
+\U0001d442(\U0001d440⋅\U0001d441⋅4\U0001d43f)
+
+M,N: Grid dimensions.
+
+4\U0001d43f: Each cell has up to 4 neighbors, and \U0001d43f is the word length.
+        """
         
         rows=len(board)
         columns=len(board[0])
