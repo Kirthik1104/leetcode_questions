@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Kirthik1104/leetcode_questions/tree/master/0125-valid-palindrome) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
+| [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
+| [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
 ## Quickselect
 |  |
 | ------- |
@@ -220,4 +223,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
