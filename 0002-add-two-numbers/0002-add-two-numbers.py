@@ -10,21 +10,21 @@ class Solution:
         current=head     # create a pointer to move and create new node (created after additon) to finally create the resulting linked list
         carry=0   # Create a carry varibale to include any carry found by adding two numbers
 
-        while l1 or l2 or carry!=0: # base case, l1 might have 1 less node and vise varsa. Also after adding last element their might be a single value with carry. carry should be 0 to stop          
+        while l1 or l2 or carry!=0: # l1 might have 1 less node and vise varsa. Also after adding last 2 elements their might be a single value with carry. carry should be 0 to stop
             """
             Tc: O(m*n)
 
             2--->4--->3---->None
             5--->6--->4--->9
             """
-            val1 =l1.val if l1 else 0
-            val2 =l2.val if l2 else 0 #(If val is pointing to None and other node is pointing to a val, update the None to 0 for adding the numbers)
+            val1 =l1.val if l1 else 0 #(If val is pointing to None and other node is pointing to a val, update the None to 0 for adding the 2 numbers)
 
+            val2 =l2.val if l2 else 0 
             total= val1 + val2 + carry
 
-            current.next=ListNode(total%10)  #---> If the number after add is > 10 =, number%10 will keep the 0th position and remove 10th postion. if num<10 %10 will give the number
+            current.next=ListNode(total%10)  #---> If the number after add is > 10 =, number%10 will keep the 0th position and remove 10th postion. if total<10 %10 will give the number
             
-            carry = total//10 #--> If num >10 this will take val at 10th position to get the carry which will be added to next two node. if < 10. //10 gives 0
+            carry = total//10 #--> If num >10 this will take val at 10th position to get the carry which will be added to next two node. if total < 10. //10 gives 0
 
             current=current.next # After creating the new added, update the current to point to new node
             l1= l1.next if l1 else None # Move to next node if the node exits else update to None.. same for below
