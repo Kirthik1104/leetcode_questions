@@ -12,6 +12,8 @@ class Solution:
 
         while l1 or l2 or carry!=0: # base case, l1 might have 1 less node and vise varsa. Also after adding last element their might be a single value with carry. carry should be 0 to stop          
             """
+            Tc: O(m*n)
+
             2--->4--->3---->None
             5--->6--->4--->9
             """
