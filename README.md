@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Kirthik1104/leetcode_questions/tree/master/0056-merge-intervals) |
+| [0078-subsets](https://github.com/Kirthik1104/leetcode_questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kirthik1104/leetcode_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Kirthik1104/leetcode_questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
@@ -230,4 +232,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Kirthik1104/leetcode_questions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
