@@ -15,16 +15,17 @@ class Solution:
             return root
         queue=deque([root])
         while queue:
-            level=[]
-            length=len(queue)
+            level=[]                   #---> Storing all the nodes at each level
+            length=len(queue)          #---> Run the for loop for the no. of nodes at each level present in side queue
             for val in range(length):
-                node=queue.popleft()
-                if node:
-                    level.append(node)
+                node=queue.popleft()   # Pop the node from left
+                              # If th node  
+                level.append(node)
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
+
             for i in range(len(level)):
                 if len(level)==1:
                     node=level.pop(0)
