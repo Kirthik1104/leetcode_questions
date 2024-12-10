@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
@@ -178,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
 ## Doubly-Linked List
@@ -198,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -208,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 ## Backtracking
 |  |
 | ------- |
@@ -220,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
 ## Graph
 |  |
