@@ -12,7 +12,7 @@ class Solution:
         curr=root
 
         while curr:
-            while curr.left:
+            if curr.left:
                 prev_node=curr.left
 
                 while prev_node.right:
