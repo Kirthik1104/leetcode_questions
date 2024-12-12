@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1731-even-odd-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1731-even-odd-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1731-even-odd-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1731-even-odd-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1731-even-odd-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1731-even-odd-tree) |
 ## Graph
 |  |
 | ------- |
