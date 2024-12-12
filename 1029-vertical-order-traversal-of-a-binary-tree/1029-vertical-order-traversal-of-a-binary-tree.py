@@ -59,7 +59,7 @@ class Solution:
                 if node.right:
                     queue.append((node.right, row+1, col+1))
 
-            print(hashmap)
+      
 
             """
             1) For loop: sort the columns (keys) first (-2,-1,0,1,2)
@@ -67,7 +67,7 @@ class Solution:
 
             """
             result=[]
-            for col in sorted(hashmap):     # sort the columns (keys) first (-2,-1,0,1,2)
+            for col in range(min(hashmap), max(hashmap)+1):     # sort the columns (keys) first (-2,-1,0,1,2)
                 node = sorted(hashmap[col])     # sor the values inside each column (row, val). if multiple values present (row, val), (row, val) sorted will first sort
                 extract=[val for row, val in node]
                 result.append(extract)
