@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Kirthik1104/leetcode_questions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kirthik1104/leetcode_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Kirthik1104/leetcode_questions/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0394-decode-string) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Kirthik1104/leetcode_questions/tree/master/0002-add-two-numbers) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 ## Depth-First Search
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Kirthik1104/leetcode_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -207,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Kirthik1104/leetcode_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -223,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Kirthik1104/leetcode_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
