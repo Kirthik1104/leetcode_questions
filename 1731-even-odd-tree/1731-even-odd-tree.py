@@ -1,39 +1,49 @@
 from collections import deque
-
+from collections import defaultdict
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
     def isEvenOddTree(self, root: Optional[TreeNode]) -> bool:
-        if not root:
-            return True
         
-        # BFS traversal using a queue
-        queue = deque([root])
-        level = 0
-        
+        # root is at index 0
+        # even index level: odd integer values in increasing order
+        # Odd index level: even integer in decreasing order
+
+        if root is None:
+            return []
+
+        queue=deque([root])
+        level=0
         while queue:
-            length = len(queue)
-            prev_val = None  # To track the previous value at the current level
-            
-            for _ in range(length):
+
+            length=len(queue)
+            prev=None
+            for height in range(length):
                 node = queue.popleft()
                 
-                # Validate the node value based on the level
-                if level % 2 == 0:  # Even level: odd integers in strictly increasing order
-                    if node.val % 2 == 0 or (prev_val is not None and node.val <= prev_val):
+                # Check if level is even
+                if level%2==0:
+                    if node.val%2==1 and (prev is None or node.val>prev):
+                        prev = node.val
+                    else:
                         return False
-                else:  # Odd level: even integers in strictly decreasing order
-                    if node.val % 2 == 1 or (prev_val is not None and node.val >= prev_val):
+                # Odd level
+                if level%2==1:
+                    if node.val%2==0 and (prev is None or node.val<prev):
+                        prev = node.val
+                    else:
                         return False
-                
-                # Update the previous value for this level
-                prev_val = node.val
-                
-                # Add children to the queue for the next level
+
                 if node.left:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-            
-            # Move to the next level
-            level += 1
-        
+            level+=1
         return True
+
+
+        
