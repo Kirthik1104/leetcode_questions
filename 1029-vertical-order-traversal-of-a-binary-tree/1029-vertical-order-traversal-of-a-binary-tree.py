@@ -62,7 +62,7 @@ class Solution:
       
 
             """
-            1) For loop: sort the columns (keys) first (-2,-1,0,1,2)
+            1) For loop: from min keys (column) to max keys+1 (-2,-1,0,1,2)
             2) node = sorted(hashmap[col])     # sort the values inside each column (row, val). if multiple values present (row, val), (row, val) sorted will first sort by row and if rows are same, it will sort by values.------> Why we sort by rows?----> rows means top to bottom level, in a standing column if you want values from top to bottom you will first sort by rows to get the val at the top row.-----> what is same rows are present, that means 2 values present at same row level, then sorted will sort by values. 
 
             """
