@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
 ## Hash Table
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
 | [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
 ## String
@@ -190,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kirthik1104/leetcode_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -232,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kirthik1104/leetcode_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -250,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Kirthik1104/leetcode_questions/tree/master/0199-binary-tree-right-side-view) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Graph
 |  |
 | ------- |
