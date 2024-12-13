@@ -5,6 +5,16 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+
+
+        """
+
+The time complexity of the solution is O(max(m, n)), where:
+
+\U0001d45a is the number of nodes in the first linked list l1.
+
+n is the number of nodes in the second linked list l2.
+        """
         
         head=ListNode()  # Create a dummmy listnode to signify list or linked list creation for the final result (will always be at start, and will point to next at end to give result)
         current=head     # create a pointer to move and create new node (created after additon) to finally create the resulting linked list
