@@ -1,21 +1,30 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        # Edge case 1: Empty list
-        if not intervals:
-            return []
+        res=[]
 
-        # Edge Case 2: Single interval
-        if len(intervals)==1:
-            return intervals
-        
-        
-        res=[] 
-
-        
-        """
         #Sorting based on 1st elementt of every sub array
         #for interval in sorted(intervals, key=lambda x:x[0]):
-        --------------------------------------------------------
+        """
+        Gredy Approach
+        ---------------
+    The solution uses a greedy approach by making optimal local decisions at each step: merging intervals if overlapping or adding them otherwise. This ensures a globally optimal result. Sorting is the key step that enables efficient processing of intervals."
+
+
+    Greeady>>brute
+    ----------------
+    Greedy: Traversal O(n), sorting nlogn, Overall Tc: nlogn because nlogn denotes
+    Bruet :  Traversal O(n^2), sorting nlogn, Overal n^2 because n^2 leads nlogn
+
+     Why sorting is efficeint?
+     --------------------------
+     "Sorting simplifies the process as overlapping intervals will always be adjacent. Without sorting, we’d need to check each interval against all others, which is inefficient."
+
+
+
+        """
+
+
+        """
         why the above for loop for sorting is necessary
         Example: Consider intervals like [[5, 6], [1, 3], [2, 4]]. If we process  these in the original order:
         --When examining [5, 6], there's no overlap with [1, 3], so we add it to res.
