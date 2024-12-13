@@ -38,7 +38,8 @@ class RandomizedSet:
         hashmap={1:0,3:1}
 
 
-
+        Swapping---> Wsapping of element whihc is done in O(1)
+        ---------
         """
 
         lastelement=self.mylist[-1]           # To get the last elemnt of the list
