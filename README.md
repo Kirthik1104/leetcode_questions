@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Kirthik1104/leetcode_questions/tree/master/0002-add-two-numbers) |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Kirthik1104/leetcode_questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
