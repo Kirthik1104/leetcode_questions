@@ -36,47 +36,47 @@ Since the loop iterates through the string once and each stack operation (push a
 
 
         # """
-        stack=[]
-        hashmap={"}":"{", ")":"(", "]":"["}
+        # stack=[]
+        # hashmap={"}":"{", ")":"(", "]":"["}
 
-        for c in s:
-            if c in hashmap:  # This conditions check the keys which are the closing brackets, if they are present in dict
-                # print(c)
+        # for c in s:
+        #     if c in hashmap:  # This conditions check the keys which are the closing brackets, if they are present in dict
+        #         # print(c)
 
-              # If yes, then we will check if stack is empty ot not with (if empty) and
-              # Compare the top element, any opening bracket woth its corresponding closing bracket, how?
-              #  stack[-1] will show the top elememet (bracket) and will check with hashmap[c]:-which is the value    associated with with the corresponding closing bracket or key.
+        #       # If yes, then we will check if stack is empty ot not with (if empty) and
+        #       # Compare the top element, any opening bracket woth its corresponding closing bracket, how?
+        #       #  stack[-1] will show the top elememet (bracket) and will check with hashmap[c]:-which is the value    associated with with the corresponding closing bracket or key.
                 
-                if stack and stack[-1]==hashmap[c]: 
-                    stack.pop()             # if same we will pop the top element from stack
-                else:
-                    return False            # if opening bracket abd closing bracket are not same. we will immedeialty return false
+        #         if stack and stack[-1]==hashmap[c]: 
+        #             stack.pop()             # if same we will pop the top element from stack
+        #         else:
+        #             return False            # if opening bracket abd closing bracket are not same. we will immedeialty return false
 
-            # If stack is empty insert the element        
-            else:                     
-                stack.append(c)
+        #     # If stack is empty insert the element        
+        #     else:                     
+        #         stack.append(c)
         
-        return not stack  # if stack returns true when not empty. and false when empty:--So we will say not empty to make it return true for empty stack
+        # return not stack  # if stack returns true when not empty. and false when empty:--So we will say not empty to make it return true for empty stack
 
 
-        """
+        # """
 
-        Two pointer method: Not efficent with for mismatched pairs
+        # Two pointer method: Not efficent with for mismatched pairs
 
-        """
+        # """
 
-        balance=0
+        # balance=0
 
-        for i in s:
+        # for i in s:
 
-            if i in "({[":
-                balance+=1
-            else:
-                balance-=1
-            if balance<0:
-                return False
+        #     if i in "({[":
+        #         balance+=1
+        #     else:
+        #         balance-=1
+        #     if balance<0:
+        #         return False
             
-        return balance==0
+        # return balance==0
 
 
 
