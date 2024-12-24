@@ -1,27 +1,57 @@
+from collections import deque
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
 
         rows=len(grid)
         columns=len(grid[0])
 
-        def dfs(x, y):
-            if (x<0 or x>=rows or y<0 or y>=columns or grid[x][y]=="0"):
-                return 
+        # def dfs(x, y):
+        #     if (x<0 or x>=rows or y<0 or y>=columns or grid[x][y]=="0"): # Base condition: Out of bound error, and grid[x][y] is 0
+        #         return # Return for current position and acess the next directions
             
+        #     grid[x][y]="0" # island is found(1), so change it to water, so that same position is not accessed again
+
+        #     # Access all four directions
+        #     dfs(x, y+1)
+        #     dfs(x, y-1)
+        #     dfs(x-1,y)
+        #     dfs(x+1,y)
+
+        # count=0
+        # for row in range(rows):
+        #     for col in range(columns):
+        #         if grid[row][col]=="1":
+        #             print(row, col)
+        #             count+=1
+        #             dfs(row, col)
+        # return count
+
+        def dfs(x, y):
             grid[x][y]="0"
+            queue=deque([(x, y)])
+            directions=[(1, 0), (-1, 0), (0, 1), (0, -1)]
 
-            dfs(x, y+1)
-            dfs(x, y-1)
-            dfs(x-1,y)
-            dfs(x+1,y)
+            while queue:
+                xaxis, yaxis = queue.popleft()
+                for direction in directions:
+                    new_x = xaxis + direction[0]
+                    new_y = yaxis + direction[1]
 
+                    if (0<=new_x<rows and 0<=new_y<columns):
+                        
+                        if grid[new_x][new_y]=="1":
+                       
+                            grid[new_x][new_y]="0"
+                            queue.append((new_x, new_y))
+                        
         count=0
         for row in range(rows):
             for col in range(columns):
                 if grid[row][col]=="1":
-                    print(row, col)
                     count+=1
                     dfs(row, col)
+                    print(row, col)
+
         return count
 
 
