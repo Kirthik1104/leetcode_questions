@@ -1,5 +1,10 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+        """
+        Time Complexity: O(m * n) — we visit each cell exactly once.
+        Space Complexity: O(m * n) — the maximum depth of the recursion stack can be m * n in the worst case, where
+        the grid is entirely land.
+        """
         rows=len(grid)
         columns=len(grid[0])
         def dfs(x, y):
@@ -9,20 +14,22 @@ class Solution:
             
             grid[x][y]=0
 
+            """
+            1) Counting no. of 1's in all 4 directions
+            """
             area=1
             area+=dfs(x+1, y)
             area+=dfs(x-1, y)
             area+=dfs(x, y+1)
             area+=dfs(x, y-1)
-            print(area)
-            return area
+            return area # returning the area for island with connected 1's
 
         maxi=0
         for row in range(rows):
             for col in range(columns):
                 if grid[row][col]==1:
-                    maxi=max(maxi, dfs(row, col))
-        return maxi
+                    maxi=max(maxi, dfs(row, col)) # counting the maximum no. of 1's of an island
+        return maxi # return the max count of 1's in the island from all unique island of 1's
 
 
 
