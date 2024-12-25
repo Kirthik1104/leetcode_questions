@@ -15,11 +15,11 @@ class Solution:
         nums[k] which is 2
 
         """
-        j=1
+        j=1                                 # Pointer to keep the index of second duplicate till we find the unique element
         for i in range(1, len(nums)):
-            if nums[i]!=nums[i-1]:
-                nums[j]=nums[i]
-                j+=1
-        return j
+            if nums[i]!=nums[i-1]:              # check i with 0
+                nums[j]=nums[i]          # update the pointer with unique elements
+                j+=1                     # increment pinter
+        return j                       # return j
 
         
