@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kirthik1104/leetcode_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kirthik1104/leetcode_questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/Kirthik1104/leetcode_questions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Kirthik1104/leetcode_questions/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Kirthik1104/leetcode_questions/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Kirthik1104/leetcode_questions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -56,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Kirthik1104/leetcode_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Kirthik1104/leetcode_questions/tree/master/0133-clone-graph) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
+| [0169-majority-element](https://github.com/Kirthik1104/leetcode_questions/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Kirthik1104/leetcode_questions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Kirthik1104/leetcode_questions/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Kirthik1104/leetcode_questions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -99,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Kirthik1104/leetcode_questions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Kirthik1104/leetcode_questions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0387-first-unique-character-in-a-string) |
 ## Quickselect
