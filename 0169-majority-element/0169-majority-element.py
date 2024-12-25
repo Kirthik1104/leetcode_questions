@@ -3,11 +3,11 @@ class Solution:
         hashmap={}
 
         for num in nums:
-            hashmap[num]=hashmap.get(num, 0)+1
+            hashmap[num]=hashmap.get(num, 0)+1  # Storing all the numbers as key and its occurence as a value 
         
-        for key, val in hashmap.items():
-            if val>len(nums)//2:
-                return key 
+        for key in hashmap:                   # Traverse through each numbers (keys), and
+            if hashmap[key]>len(nums)//2: #check if occurence of that number is >len(nums)//2, if yes return that key. (There always exits a value) 
+                return key
 
 
 
