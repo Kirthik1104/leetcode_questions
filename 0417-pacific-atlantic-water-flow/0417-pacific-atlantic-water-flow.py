@@ -57,7 +57,9 @@ class Solution:
                     newx = x + direction[0]
                     newy = y + direction[1]
 
-                    print(newx, newy)
+            # Condition to check in bounds. 
+            # What is not in seen? --> It is used to avoid all the border cells revisiting again and also avoid visiting same positions again
+            # Also checking if new position is greater than th existing position 
                     if (0<=newx<rows and 0<=newy<columns and (newx, newy) not in seen and heights[newx][newy] >= heights[x][y]):
                         q.append((newx, newy))
                         seen.add((newx, newy))
