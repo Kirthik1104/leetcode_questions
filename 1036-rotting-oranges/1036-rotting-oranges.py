@@ -13,7 +13,6 @@ class Solution:
         columns=len(grid[0])
         queue=deque([])
         fresh_oranges=0
-        times=0
         for row in range(rows):
             for col in range(columns):
                 if grid[row][col]==2:
@@ -71,7 +70,7 @@ class Solution:
         """
     Key Insights
     Queue: Allows simultaneous rotting of all oranges at the same level.
-    
+
     Time Complexity: O(m×n), where m and n are the grid dimensions. Each cell is processed at most once.
     Space Complexity: O(m×n) for the queue in the worst case (all cells are rotten).
         """
