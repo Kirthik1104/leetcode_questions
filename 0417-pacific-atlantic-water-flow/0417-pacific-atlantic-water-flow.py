@@ -3,6 +3,12 @@ class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         
         """
+        Tc: O(rows×columns)
+        Sc: O(rows×columns)
+
+        
+
+
         1) How We will find a solution for this problem
 
         --> We will use two seperate queues to seperately store the positions which touches both  pacific ocean and atlantic ocean
