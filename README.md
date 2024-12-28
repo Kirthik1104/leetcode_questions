@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0695-max-area-of-island](https://github.com/Kirthik1104/leetcode_questions/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/Kirthik1104/leetcode_questions/tree/master/0739-daily-temperatures) |
+| [1036-rotting-oranges](https://github.com/Kirthik1104/leetcode_questions/tree/master/1036-rotting-oranges) |
 | [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
 | [1775-design-an-ordered-stream](https://github.com/Kirthik1104/leetcode_questions/tree/master/1775-design-an-ordered-stream) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Kirthik1104/leetcode_questions/tree/master/0695-max-area-of-island) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/Kirthik1104/leetcode_questions/tree/master/1036-rotting-oranges) |
 | [1731-even-odd-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1731-even-odd-tree) |
 ## Graph
 |  |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Kirthik1104/leetcode_questions/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Kirthik1104/leetcode_questions/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Kirthik1104/leetcode_questions/tree/master/1036-rotting-oranges) |
 ## Trie
 |  |
 | ------- |
