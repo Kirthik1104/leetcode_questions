@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Kirthik1104/leetcode_questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/Kirthik1104/leetcode_questions/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/Kirthik1104/leetcode_questions/tree/master/0739-daily-temperatures) |
+| [0907-koko-eating-bananas](https://github.com/Kirthik1104/leetcode_questions/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/Kirthik1104/leetcode_questions/tree/master/1036-rotting-oranges) |
 | [1095-two-city-scheduling](https://github.com/Kirthik1104/leetcode_questions/tree/master/1095-two-city-scheduling) |
 | [1272-invalid-transactions](https://github.com/Kirthik1104/leetcode_questions/tree/master/1272-invalid-transactions) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Kirthik1104/leetcode_questions/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kirthik1104/leetcode_questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0907-koko-eating-bananas](https://github.com/Kirthik1104/leetcode_questions/tree/master/0907-koko-eating-bananas) |
 ## Greedy
 |  |
 | ------- |
