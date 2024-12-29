@@ -8,12 +8,12 @@ class Solution:
 
         left=0
         right= row * column - 1
-        print(right)
+      
         while left<=right:
             mid=(left + right)//2
-            print(mid)
+       
             mid_value = matrix [mid//column][mid%column]
-            print(mid_value)
+      
 
             if mid_value==target:
                 return True
