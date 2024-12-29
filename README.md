@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Kirthik1104/leetcode_questions/tree/master/0056-merge-intervals) |
+| [0074-search-a-2d-matrix](https://github.com/Kirthik1104/leetcode_questions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Kirthik1104/leetcode_questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0088-merge-sorted-array) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Kirthik1104/leetcode_questions/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Kirthik1104/leetcode_questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Greedy
 |  |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Kirthik1104/leetcode_questions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Kirthik1104/leetcode_questions/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Kirthik1104/leetcode_questions/tree/master/0417-pacific-atlantic-water-flow) |
