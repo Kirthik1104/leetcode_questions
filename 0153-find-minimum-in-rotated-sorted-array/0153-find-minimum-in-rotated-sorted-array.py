@@ -7,7 +7,7 @@ class Solution:
         while low<=high:
             mid = (low + high)//2
 
-            if target> nums[mid]:
+            if target>nums[mid]:
                 target=nums[mid]
                 high=mid-1
 
