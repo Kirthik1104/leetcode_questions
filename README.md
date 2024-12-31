@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Kirthik1104/leetcode_questions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kirthik1104/leetcode_questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/Kirthik1104/leetcode_questions/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Kirthik1104/leetcode_questions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Kirthik1104/leetcode_questions/tree/master/0133-clone-graph) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Kirthik1104/leetcode_questions/tree/master/0058-length-of-last-word) |
+| [0076-minimum-window-substring](https://github.com/Kirthik1104/leetcode_questions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Kirthik1104/leetcode_questions/tree/master/0125-valid-palindrome) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Kirthik1104/leetcode_questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Kirthik1104/leetcode_questions/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/Kirthik1104/leetcode_questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0567-permutation-in-string) |
 ## Design
