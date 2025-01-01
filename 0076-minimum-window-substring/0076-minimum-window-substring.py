@@ -2,6 +2,9 @@ class Solution:
     def minWindow(self, s: str, t: str) -> str:
 
         """
+        Tc: O(n + m) : n= len of string s, and m is len of string t
+        Space Complexity: \U0001d442(\U0001d45a+\U0001d45b):proportional to the unique characters in t and s.
+
         1) Steps to solve:
 
         Take 1 hashmap for t and store all the occurence of chars along with the number of occurence
