@@ -51,4 +51,4 @@ class Solution:
             # Move the right pointer
             right += 1
 
-        return result if min_length != float('inf') else ""
+        return result 
