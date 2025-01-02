@@ -15,7 +15,6 @@ class Solution:
             self.counter+=1
             if self.counter == k:
                 self.result = node.val
-                return 
             dfs(node.right)
         self.counter=0
         self.result= 0
