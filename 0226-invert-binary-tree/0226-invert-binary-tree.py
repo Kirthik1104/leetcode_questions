@@ -7,58 +7,21 @@ from collections import deque
 #         self.right = right
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        if root is None:
+        if root is None:   # Step 1: Base case when we reach Null nodes
             return
         
-        temp=root.left
-        root.left=root.right
-        root.right=temp
 
-        
+        # Step 2: Swap phase: 
+        temp=root.left                  # store left tree in a temp variable
+        root.left=root.right            # swap left treee with right tree
+        root.right=temp                 # swap right tree with left tree
+
+        # Recursively call left and right subtree
         left=self.invertTree(root.left)
         right=self.invertTree(root.right)
 
+        # Return root
         return root
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        # if root is None:
-        #     return
-        
-        # temp=root.left
-        # root.left=root.right
-        # root.right=temp
-
-        # left_tree=self.invertTree(root.left)
-        # right_tree=self.invertTree(root.right)
-
-        # return root
-        # if root.left:
-        #     self.invertTree(root.left)
-        # if root.right:
-        #     self.invertTree(root.right)
-
-        # return root
-
 
 """
 Time Complexity of the Solution
