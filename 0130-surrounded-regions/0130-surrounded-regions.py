@@ -66,20 +66,19 @@ class Solution:
             dfs(x,y-1)
 
         for i in range(rows):
-            if board[i][0]=="O":
+            if board[i][0]=="O":        # To check left column 0,0 | 1,0 | 2,0---> If 0 is found in border cells, convert all connected 0 to T (In the nested for loop convert back to 0, because its not surrounded)
                 dfs(i, 0)
-            if board[i][columns-1]=="O":
+            if board[i][columns-1]=="O": # To check right column 1,0 | 2,0--> ---> If 0 is found in border cells, convert all connected 0 to T (In the nested for loop convert back to 0, because its not surrounded)
                 dfs(i, columns-1)
 
         for j in range(columns):
-            if board[rows-1][j]=="O":
+            if board[rows-1][j]=="O": # To check botton row 3,0 | 3,1--> ---> If 0 is found in border cells, convert all connected 0 to T (In the nested for loop convert back to 0, because its not surrounded)
                 dfs(rows-1, j)
-            if board[0][j]=="O":
+            if board[0][j]=="O":  # To check top row 0,0 | 0,1--> ---> If 0 is found in border cells, convert all connected 0 to T (In the nested for loop convert back to 0, because its not surrounded)
                 dfs(0, j)
     
 
-
-
+    # since we converted all the border 0 to T, now run a nested loop to convert all 0's to x (because they are surrounded by x) and T back to 0 (because they are not surrounded by x) this includes 0 connected to border cells
         for row in range(rows):
             for col in range(columns):
                 if board[row][col] == "O":
