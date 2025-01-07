@@ -3,9 +3,7 @@ class Solution:
         path = path.split("/")
         directory=[]
         for char in path:
-            if char == "":
-                continue
-            elif char == ".":
+            if char == "" or char == ".":
                 continue
             elif directory and char == "..":
                 directory.pop()
