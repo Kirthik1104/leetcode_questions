@@ -27,12 +27,15 @@ class Solution:
         -------------------------
         slow pointer: move pointer by 1 position
         fast pointer: move pointer by 2 position
+
+        Tc: O(n)
+        Sp: O(1)
         """
 
         fast_pointer=head
         slow_pointer=head
         
-        while fast_pointer is not None and fast_pointer.next is not None:
+        while fast_pointer and fast_pointer.next:
             slow_pointer=slow_pointer.next
             fast_pointer=fast_pointer.next.next
             if slow_pointer==fast_pointer:
