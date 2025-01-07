@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/Kirthik1104/leetcode_questions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Kirthik1104/leetcode_questions/tree/master/0058-length-of-last-word) |
+| [0071-simplify-path](https://github.com/Kirthik1104/leetcode_questions/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Kirthik1104/leetcode_questions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Kirthik1104/leetcode_questions/tree/master/0125-valid-palindrome) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Kirthik1104/leetcode_questions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/Kirthik1104/leetcode_questions/tree/master/0071-simplify-path) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kirthik1104/leetcode_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/Kirthik1104/leetcode_questions/tree/master/0155-min-stack) |
