@@ -10,12 +10,12 @@ class Solution:
         Using hashmap
         """
         hashmap={}
-        current=head
-        while current is not None:
-            if current in hashmap:
+       
+        while head is not None:
+            if head in hashmap:
                 return True
-            hashmap[current]=0          
-            current=current.next
+            hashmap[head]=0          
+            head=head.next
         return False
 
 
