@@ -6,19 +6,26 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:    
-        Travel=True
-        hashmap={}
-        while head is not None:
-            if head not in hashmap:
-              hashmap[head]=0
-            
-             
-            if head.next:
-                if head.next in hashmap:
-                    return True
-            else:
-                return False
-            head=head.next
+        # hashmap={}
+        # while head is not None:
+        #     if head not in hashmap:  # Create a dictionary of each node ()
+        #       hashmap[head]=0          
+
+        #     if head.next:
+        #         if head.next in hashmap:
+        #             return True
+        #     else:
+        #         return False
+        #     head=head.next
+
+        hashset=set()
+        current=head
+        while current is not None:
+            if current in hashset:
+                return True
+            hashset.add(current)
+            current=current.next
+        return False
      
 
 
