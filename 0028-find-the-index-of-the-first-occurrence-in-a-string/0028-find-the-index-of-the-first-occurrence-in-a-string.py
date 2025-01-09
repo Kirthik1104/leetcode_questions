@@ -6,7 +6,7 @@ class Solution:
         left=0
         right=len(needle)
 
-        while right<=len(haystack):
+        while right<=len(haystack):  #why =?: for char with length of 1
             if not haystack[left:right].startswith(needle):
                 left+=1
                 right+=1
