@@ -1,18 +1,33 @@
 from collections import defaultdict
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        hashmap=defaultdict(list)
+        
+        # hashmap=defaultdict(list)
+
+        # for char in strs:
+        #     result=[0]*26
+        #     for string in char:                 #---> For[""] this for loop will be skipped, we can iterate over empty
+       
+        #         result[ord('a')-ord(string)]+=1
+            
+        #     hashmap[tuple(result)].append(char)
+       
+
+        # return [values for values in hashmap.values()]
+
+        freq=defaultdict(list)
 
         for char in strs:
-            result=[0]*26
-            for string in char:                 #---> For[""] this for loop will be skipped, we can iterate over empty
-       
-                result[ord('a')-ord(string)]+=1
+            sorted_char=sorted(char)
+
+            key=tuple(sorted_char)
+
+            if key not in freq:
+                freq[key].append(char)
+            else:
+                freq[key].append(char)
             
-            hashmap[tuple(result)].append(char)
-       
-
-        return [values for values in hashmap.values()]
+        return [val for val in freq.values()]
 
 
 
@@ -30,38 +45,40 @@ class Solution:
 
 
 
-        # """
-        #   1. Sorting Approach
-        # ---------------------------
-        # Time Complexity: O(N * K log K)
-        # N: Number of strings in the input list.
-        # K: Average length of the strings.
-        # Explanation: For each string, we sort it, which takes O(K log K) time. We then use the sorted string as a key in the dictionary. The sorting step is what introduces the logarithmic factor, making this approach less efficient than character counting.
-        #         """
+        """
+          1. Sorting Approach
+        ---------------------------
+        Time Complexity: O(N * K log K)
+        N: Number of strings in the input list.
+        K: Average length of the strings.
+        Explanation: For each string, we sort it, which takes O(K log K) time. We then use the sorted string as a key in the dictionary. The sorting step is what introduces the logarithmic factor, making this approach less efficient than character counting.
+                """
 
         # freq={}
         # for char in strs: # go throug each char in list
 
         #     sorted_char=''.join(sorted(char))  # sort each string. eat becomes aet
+   
 
         #     key=tuple(sorted_char)  #convert string to tuple so that it becoomes immutable 
-
+          
         #     if  key not in freq:  # check if key exists. if not then create and assign original string in list
         #         freq[key]=[char]
         #     else:
         #         freq[key].append(char) # if already exists. append it
+
         # return list(freq.values())   # return it in the form of list fo values 
 
        
 
-        # """
-        # 2. Character Counting Approach (Using ord())
-        # -------------------------------------
-        # Time Complexity: O(N * K)
-        # N: Number of strings in the input list.
-        # K: Average length of the strings.
-        # Explanation: For each string, we count the occurrences of each character in linear time (O(K)) and store the results in a dictionary. The dictionary operations (insertion and lookup) are average O(1).
-        # """
+        """
+        2. Character Counting Approach (Using ord())
+        -------------------------------------
+        Time Complexity: O(N * K)
+        N: Number of strings in the input list.
+        K: Average length of the strings.
+        Explanation: For each string, we count the occurrences of each character in linear time (O(K)) and store the results in a dictionary. The dictionary operations (insertion and lookup) are average O(1).
+        """
         # mydict=defaultdict(list)
 
         # for chars in strs:
