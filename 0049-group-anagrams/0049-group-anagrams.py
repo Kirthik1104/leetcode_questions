@@ -5,10 +5,12 @@ class Solution:
 
         for char in strs:
             result=[0]*26
-            for string in char:
-
+            for string in char:                 #---> For[""] this for loop will be skipped, we can iterate over empty
+       
                 result[ord('a')-ord(string)]+=1
+            
             hashmap[tuple(result)].append(char)
+       
 
         return [values for values in hashmap.values()]
 
