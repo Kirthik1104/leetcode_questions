@@ -1,23 +1,31 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        if len(s)!=len(t):
+            return False
+
         hashmap={}
-        for char in s:
-            if char not in hashmap:
-                hashmap[char]=1
-            else:
-                hashmap[char]+=1
-            
-        for char in t:
-            if char not in hashmap:
-                return False
-            else:
-                hashmap[char]-=1
-        
+        #---> The total time complexity for this loop is O(n)
+        for char1, char2 in zip(s, t):                  #---> O(n) because 1 for loop is used
+            hashmap[char1]=hashmap.get(char1, 0)+1      #---> dictionary operations: which are O(1) operations on average.
+            hashmap[char2]=hashmap.get(char2, 0)-1
+ 
+        # For English lowercase letters, the number of unique characters is 26, but this is a constant.     
+        # Since the number of unique characters is small and constant, this loop runs in O(k) time, where k is a constant (at most 26).  
+        #-->Thus, the total time complexity is O(n + k), which simplifies to O(n) since k is constant (26 at most).
         for value in hashmap.values():
             if value!=0:
                 return False
         return True
+        """
+        Space Complexity
+        ---------------
+        --->In the worst case, the hashmap will have an entry for every unique character in both strings. Since we're considering lowercase English letters, the maximum
+        number of unique characters is 26.
+        --->Therefore, the space complexity for the hashmap is O(k), where k is the number of unique characters. As k is constant (26), this simplifies to O(1) space.
+        """
+ 
 
+        
 
 
 
