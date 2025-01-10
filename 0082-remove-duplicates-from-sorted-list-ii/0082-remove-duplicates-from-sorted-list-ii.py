@@ -5,23 +5,25 @@
 #         self.next = next
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if head is None:
+        if not head:
             return None
-        dummy=ListNode(0, head)
+       
+        dummy=ListNode(0, head) #Creating a dummy node with value 0 and next pointer pointing to head
         prev=dummy
-        curr=head
-        dup=-101
-        while curr.next:
-            if curr.val==curr.next.val:
-                dup=curr.val
-            if curr.val==dup:
-                prev.next=curr.next
+        curr=head # pointing curr to head, whihc would be used to traverse the nodes
+        duplicate=-101 # to keep track if 
+        while curr.next: # why stop before None? because we are comparing pairs of nodes, so comparing a node with none will give attribute error
+            if curr.val==curr.next.val: # if consecutive nodes are same
+                duplicate=curr.val    # update the duplciate with first occurence of duplciate. it will help eliminate consecutive duplciates
             
-            else:
-                prev=prev.next
+            if curr.val==duplicate: # it will help eliminate consecutive duplciates
+                prev.next=curr.next # skip duplicates
+
+            else: 
+                prev=prev.next  # if no duplicates are found, move the prev to curr and and move the curr to next position (check below)
             
             curr=curr.next
-        if curr.val==dup:
+
+        if curr.val==duplicate: # since we are stopping before none, this case will help us remove duplicate nodes at last position
             prev.next=None
-        
         return dummy.next
