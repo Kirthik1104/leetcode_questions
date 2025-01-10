@@ -9,15 +9,20 @@ class Solution:
         first=dummy
         second=dummy
 
+        # Move the second pointer by n steps
         for _ in range(n):
             second=second.next
         
+       # Start moving each node ahead by 1 position, the first pointer will stop 1 node before the n node which has to be removed
+        # the second pointer will stop exactly before the none
         while second.next:
             first=first.next
             second=second.next
         
+        # skip the nth node
         first.next=first.next.next
 
+        # return the head
         return dummy.next
 
 
