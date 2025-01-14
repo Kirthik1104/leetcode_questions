@@ -1,14 +1,17 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        if x<0:
-            return False
-        original=x
-        reverse=0
-        while x>0:
-            digit=x%10
-            reverse=reverse*10 + digit
-            x//=10
-        return original==reverse
+        if x<0:  # Negative number
+            return False   
+
+        original=x  # Storing x in a variable called original, which will be used to match with the reverse pallindrome
+        reverse=0   # Variable to store the reversed number
+        while x>0:  # every iteration x will be reduced and will become 0 eventually, loop will break
+            digit=x%10 # This will give remainder i.e last number
+            reverse=reverse*10 + digit # Shift the position by 10's place everytime
+            x//=10                      # This will give quotient and also removes last number
+
+        # Last iteration will be first number //10 ----> Which gives 0
+        return original==reverse        # If original and reversed are same return
 
 
 
