@@ -2,15 +2,15 @@ class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         
         k=k%len(nums)
-        self.reverse(nums, 0, len(nums)-1)
-        self.reverse(nums, 0, k-1)
-        self.reverse(nums, k, len(nums)-1)
+        self.reverse(nums, 0, len(nums)-1) # reversing from start to end
+        self.reverse(nums, 0, k-1)         # Reversing from start to k-1
+        self.reverse(nums, k, len(nums)-1) # Reversing from k to end
 
         return nums
     
 
-    def reverse(self, nums, start, end):
-        print(start, end)
+    def reverse(self, nums, start, end): #Reversal Logic
+
         while start<=end:
             temp=nums[start]
             nums[start]=nums[end]
