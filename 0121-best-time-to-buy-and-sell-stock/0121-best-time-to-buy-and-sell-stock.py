@@ -6,12 +6,12 @@ class Solution:
         maxi=0
         while right<len(prices):
 
-            if prices[left]<=prices[right]:               #
-                profit= prices[right] - prices[left]
-                maxi=max(maxi, profit)
-                right+=1
+            if prices[left]<=prices[right]:               # check if buy is more than sell
+                profit= prices[right] - prices[left]      # calculate profit
+                maxi=max(maxi, profit)                    # calculate max profit
+                right+=1                                  # keep moving right to get max profit
             else:
-                left+=1
+                left+=1                                   # keep shifting left unless and until buy is less than sell
             
         return maxi
 
