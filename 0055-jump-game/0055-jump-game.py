@@ -1,5 +1,8 @@
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
+        """
+        Tc: O(n)
+        """
         gas=0
 
         for num in nums:
