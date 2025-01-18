@@ -2,11 +2,11 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
         left=0
-        right=1
+        right=1 #why start right from 1, because we are comparing 2 prices
         maxi=0
         while right<len(prices):
 
-            if prices[left]<=prices[right]:
+            if prices[left]<=prices[right]:               #
                 profit= prices[right] - prices[left]
                 maxi=max(maxi, profit)
                 right+=1
@@ -56,20 +56,20 @@ class Solution:
 
 
 
-#         # left=0
-#         # right=1
-#         # maxi=0
+        left=0
+        right=1
+        maxi=0
 
-#         # while right<len(prices):  # if right reaches end that means all prices are traversed
-#         #     if prices[left]<prices[right]: # if prices at left is less than right
-#         #         profit=prices[right]-prices[left] #calculate profit
-#         #         maxi=max(maxi, profit) #Update the maxi
+        while right<len(prices):  # if right reaches end that means all prices are traversed
+            if prices[left]<prices[right]: # if prices at left is less than right
+                profit=prices[right]-prices[left] #calculate profit
+                maxi=max(maxi, profit) #Update the maxi
                 
-#         #     else:         # else condition when left is > right (buy cannot be greater)
-#         #         left=right #setting left index to right index and always incrementing right to 1 
+            else:         # else condition when left is > right (buy cannot be greater)
+                left=right #setting left index to right index and always incrementing right to 1 
 
-#         #     right+=1  #even if right is greater of left is greater keep shifting the right till end
-#         # return maxi
+            right+=1  #even if right is greater of left is greater keep shifting the right till end
+        return maxi
 
 
 
