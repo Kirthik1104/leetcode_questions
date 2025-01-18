@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Kirthik1104/leetcode_questions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Kirthik1104/leetcode_questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Kirthik1104/leetcode_questions/tree/master/0079-word-search) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kirthik1104/leetcode_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0061-rotate-list) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0088-merge-sorted-array) |
