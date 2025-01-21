@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Kirthik1104/leetcode_questions/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/Kirthik1104/leetcode_questions/tree/master/0013-roman-to-integer) |
 | [0069-sqrtx](https://github.com/Kirthik1104/leetcode_questions/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/Kirthik1104/leetcode_questions/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Kirthik1104/leetcode_questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Kirthik1104/leetcode_questions/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Kirthik1104/leetcode_questions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Kirthik1104/leetcode_questions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Kirthik1104/leetcode_questions/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/Kirthik1104/leetcode_questions/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kirthik1104/leetcode_questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
 ## Monotonic Stack
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Kirthik1104/leetcode_questions/tree/master/0070-climbing-stairs) |
 | [0140-word-break-ii](https://github.com/Kirthik1104/leetcode_questions/tree/master/0140-word-break-ii) |
 ## Queue
 |  |
