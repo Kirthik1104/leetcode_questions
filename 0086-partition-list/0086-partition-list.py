@@ -67,7 +67,7 @@ class Solution:
 
 #         4) After doing this you have to connect the partition.
 #         5) Connect the ltail's last node with right.next (dummy start node of rtail)
-#         6) Update the rtail last node to none, to form a node 
+#         6) Update the rtail last node to none, to complete the chain
 #         """
 #         while head:
 #             if head.val<x:
