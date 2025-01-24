@@ -45,35 +45,35 @@ class Solution:
 
 
 
-#         # if p is None and q is None:
-#         #     return True 
-#         # if (p and not q) or (q and not p):
-#         #     return False 
-#         # if p.val!=q.val:
-#         #     return False 
-#         # left= self.isSameTree(p.left, q.left) 
-#         # right= self.isSameTree(p.right, q.right) 
+        # if p is None and q is None:
+        #     return True 
+        # if (p and not q) or (q and not p):
+        #     return False 
+        # if p.val!=q.val:
+        #     return False 
+        # left= self.isSameTree(p.left, q.left) 
+        # right= self.isSameTree(p.right, q.right) 
 
-#         # return left and right 
-#         if p is None and q is None:
-#             return True
-#         if (p and not q) or (q and not p):
-#             return False
-#         if p.val!=q.val:
-#             return False
+        # return left and right 
+        if p is None and q is None:
+            return True
+        if (p and not q) or (q and not p):
+            return False
+        if p.val!=q.val:
+            return False
 
-#         """
-#         When a False value is returned from a recursive call, it goes back to the calling function, effectively ending that branch of recursion.
-#         """
+        """
+        When a False value is returned from a recursive call, it goes back to the calling function, effectively ending that branch of recursion.
+        """
             
-#         left_tree=self.isSameTree(p.left,q.left)
-#         if left_tree== False:                        # Here we check if any of left conditon returns false:--return false ad exit
-#             return False  # Early exit if left comparison fails. So the next recusion does not takes place because have already returned
+        left_tree=self.isSameTree(p.left,q.left)
+        if left_tree== False:                        # Here we check if any of left conditon returns false:--return false ad exit
+            return False  # Early exit if left comparison fails. So the next recusion does not takes place because have already returned
         
         
-#         right_tree=self.isSameTree(p.right,q.right) # if the left call fails, then right wont execute 
+        right_tree=self.isSameTree(p.right,q.right) # if the left call fails, then right wont execute 
 
-#         return left_tree and right_tree
+        return left_tree and right_tree
 
 # """
 # Termination: If any of the conditions return False, the function immediately stops further checks and returns False. If all checks pass, it eventually returns True when all nodes have been verified.
