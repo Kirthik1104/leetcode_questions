@@ -21,19 +21,16 @@ class Solution:
             return left and right
 
        
-        if not subRoot:
+        if not subRoot:                         # if only given subroot does not exis, return true cause root can be subroot of itself
             return True
-        if not root:
+        if not root:                            # if we reach none node, or if root node does not exist return False
             return False
         
-        if root.val==subRoot.val:
+        if root.val==subRoot.val:       #only call the same tree fucntion, when you see matching value, other dont call same tree, reducing unnecessary fucntion call
             if dfs(root, subRoot):
                 return True
               
-        # self.isSubtree(root.left, subRoot)
-        # self.isSubtree(root.right, subRoot)
-
-        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)  # compare T or f, f or f
       
 
 
@@ -50,33 +47,35 @@ class Solution:
 
 
 
+        """
+        First try
+        """
 
-
-    #     if not subRoot:
-    #         return True
-    #     if not root:
-    #         return False
+        if not subRoot:
+            return True
+        if not root:
+            return False
         
-    #     if self.issame(root, subRoot):
-    #         return True
+        if self.issame(root, subRoot):
+            return True
 
      
-    #     return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 
 
-    # def issame(self, root:Optional[TreeNode]=None, subRoot:Optional[TreeNode]=None)->bool:
+    def issame(self, root:Optional[TreeNode]=None, subRoot:Optional[TreeNode]=None)->bool:
 
-    #     if root is None and subRoot is None:
-    #         return True
-    #     if (root and not subRoot) or (subRoot and not root):
-    #         return False
-    #     if root.val!=subRoot.val:
-    #         return False
+        if root is None and subRoot is None:
+            return True
+        if (root and not subRoot) or (subRoot and not root):
+            return False
+        if root.val!=subRoot.val:
+            return False
         
-    #     left=self.issame(root.left, subRoot.left)
-    #     right=self.issame(root.right, subRoot.right)
+        left=self.issame(root.left, subRoot.left)
+        right=self.issame(root.right, subRoot.right)
 
-    #     return left and right
+        return left and right
 
 
        
