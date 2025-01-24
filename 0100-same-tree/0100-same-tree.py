@@ -20,11 +20,10 @@ class Solution:
             left = dfs(p.left, q.left)
             right = dfs(p.right, q.right)
 
-            print(left, right)
             return left and right 
 
-        a=dfs(p,q)
-        return a
+        return dfs(p,q)
+
 
 
 
