@@ -23,9 +23,11 @@ class Solution:
         dp[1] = max(nums[0], nums[1])
 
         for i in range(2, n):   # starting from index 2, because index 1 and index 0 is occupied by the base cases
-            dp[i] = max(nums[i] + dp[i-2], dp[i-1])
+            dp[i] = max(nums[i] + dp[i-2], dp[i-1]) # the dp array will be filled with appropirate max values at their respective index
         
-        return max(dp)
+        return max(dp)    # returning max of dp array
+
+
         """
         Approach 2 Using memoization: Top down approach (same as recursion) but cahcing the already visisted values so that we dont access them again : 
 
