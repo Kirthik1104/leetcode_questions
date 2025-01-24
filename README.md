@@ -277,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Kirthik1104/leetcode_questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0572-subtree-of-another-tree) |
 | [0695-max-area-of-island](https://github.com/Kirthik1104/leetcode_questions/tree/master/0695-max-area-of-island) |
 | [0766-flatten-a-multilevel-doubly-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0766-flatten-a-multilevel-doubly-linked-list) |
 | [0813-all-paths-from-source-to-target](https://github.com/Kirthik1104/leetcode_questions/tree/master/0813-all-paths-from-source-to-target) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kirthik1104/leetcode_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1731-even-odd-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1731-even-odd-tree) |
 ## Binary Search Tree
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Kirthik1104/leetcode_questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1731-even-odd-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/1731-even-odd-tree) |
 ## Backtracking
@@ -401,4 +404,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Kirthik1104/leetcode_questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0572-subtree-of-another-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
