@@ -263,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Kirthik1104/leetcode_questions/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0098-validate-binary-search-tree) |
+| [0100-same-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -343,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Kirthik1104/leetcode_questions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Kirthik1104/leetcode_questions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
